@@ -1,0 +1,99 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  /* Brand tokens */
+  --color-brand-navy: var(--brand-navy);
+  --color-brand-teal: var(--brand-teal);
+  --color-brand-cyan: var(--brand-cyan);
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+}
+
+:root {
+  color-scheme: light;
+
+  --background: #ffffff;
+  --foreground: #123a52;
+
+  --card: #ffffff;
+  --card-foreground: #123a52;
+
+  --popover: #ffffff;
+  --popover-foreground: #123a52;
+
+  --primary: #2e9fb5;
+  --primary-foreground: #ffffff;
+
+  --secondary: #eef8fa;
+  --secondary-foreground: #1a4f6e;
+
+  --muted: #f2f9fb;
+  --muted-foreground: #567a8d;
+
+  --accent: #5dd5e0;
+  --accent-foreground: #0f3b53;
+
+  --destructive: #dc2626;
+
+  --border: #d9ebf0;
+  --input: #d9ebf0;
+  --ring: #2e9fb5;
+
+  --brand-navy: #1a4f6e;
+  --brand-teal: #2e9fb5;
+  --brand-cyan: #5dd5e0;
+
+  --radius: 1rem;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .brand-gradient {
+    background-image: linear-gradient(135deg, #5dd5e0 0%, #2e9fb5 45%, #1a4f6e 100%);
+  }
+  .brand-text-gradient {
+    background-image: linear-gradient(120deg, #2e9fb5 0%, #1a4f6e 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "Fenix Nettoyage — Entreprise de nettoyage à Annecy, Megève & Haute-Savoie",
+    "description": "Fenix Nettoyage, votre entreprise de nettoyage professionnel en Haute-Savoie. Nettoyage de chalets à Megève, villas autour d'Annecy, bureaux, fin de chantier et locaux commerciaux. Devis gratuit.",
+    "ogTitle": "Fenix Nettoyage — Nettoyage professionnel en Haute-Savoie",
+    "ogDescription": "Nettoyage de chalets, villas, bureaux et locaux à Annecy, Megève et dans toute la Haute-Savoie. Équipe expérimentée, produits écologiques. Demandez votre devis gratuit.",
+    "keywords": "nettoyage Annecy, nettoyage Megève, entreprise de nettoyage Haute-Savoie, nettoyage chalet Megève, nettoyage villa Annecy, nettoyage bureaux, nettoyage fin de chantier, nettoyage industriel"
+  },
+  "nav": {
+    "services": "Services",
+    "howItWorks": "Comment ça marche",
+    "about": "À propos",
+    "reviews": "Avis",
+    "contact": "Contact",
+    "quote": "Demander un devis",
+    "languageLabel": "Choisir la langue"
+  },
+  "hero": {
+    "eyebrow": "Annecy · Megève · Haute-Savoie",
+    "title": "Un nettoyage professionnel et impeccable en",
+    "highlight": "Haute-Savoie",
+    "subtitle": "De Annecy à Megève, Fenix Nettoyage prend soin de vos chalets, villas, bureaux et locaux professionnels. Une équipe experte, des produits respectueux de l'environnement, un résultat irréprochable.",
+    "ctaPrimary": "Demander un devis",
+    "ctaSecondary": "Découvrir nos services",
+    "imageAlt": "Salon lumineux d'un chalet alpin fraîchement nettoyé avec vue sur les montagnes enneigées de Haute-Savoie",
+    "trust": ["Entreprise assurée", "Produits écologiques", "Devis gratuit sous 24h"]
+  },
+  "services": {
+    "eyebrow": "Nos services",
+    "title": "Des prestations de nettoyage sur mesure",
+    "subtitle": "Pour les particuliers comme pour les professionnels, nous intervenons dans toute la Haute-Savoie avec le même niveau d'exigence.",
+    "closing": "Nous réalisons tous types de travaux de nettoyage, pour les particuliers et les professionnels.",
+    "items": [
+      { "id": "post-construction", "title": "Nettoyage de fin de chantier", "description": "Remise en état complète après travaux de construction ou de rénovation, prête à emménager." },
+      { "id": "offices", "title": "Nettoyage de bureaux", "description": "Entretien régulier ou ponctuel de vos espaces de travail pour un environnement sain et accueillant." },
+      { "id": "commercial", "title": "Locaux professionnels et commerciaux", "description": "Nettoyage adapté aux commerces, boutiques et espaces recevant du public." },
+      { "id": "chalets", "title": "Nettoyage de chalets à Megève", "description": "Entretien haut de gamme de chalets à Megève et dans les environs, entre deux locations ou à l'année." },
+      { "id": "villas", "title": "Nettoyage de villas autour d'Annecy", "description": "Prestations soignées pour les villas et résidences autour du lac d'Annecy." },
+      { "id": "homes", "title": "Maisons et appartements", "description": "Ménage complet de votre logement, en une fois ou de manière récurrente." },
+      { "id": "industrial", "title": "Nettoyage industriel", "description": "Nettoyage de sites industriels, entrepôts et ateliers dans le respect des normes." },
+      { "id": "common-areas", "title": "Parties communes d'immeubles", "description": "Entretien des halls, escaliers et parties communes pour les copropriétés et syndics." },
+      { "id": "move-out", "title": "Après déménagement ou état des lieux", "description": "Nettoyage approfondi pour récupérer votre caution ou accueillir de nouveaux occupants." },
+      { "id": "recurring", "title": "Nettoyage ponctuel ou régulier", "description": "Une intervention unique ou un contrat d'entretien adapté à votre rythme." },
+      { "id": "windows", "title": "Vitres et surfaces vitrées", "description": "Lavage des vitres, baies et verrières pour une transparence parfaite." },
+      { "id": "surfaces", "title": "Sols, murs et surfaces diverses", "description": "Nettoyage et entretien de tous types de sols, murs et revêtements." },
+      { "id": "disinfection", "title": "Désinfection et entretien général", "description": "Désinfection des espaces et entretien général pour un cadre sain et sécurisé." }
+    ]
+  },
+  "howItWorks": {
+    "eyebrow": "Comment ça marche",
+    "title": "Simple, rapide et transparent",
+    "subtitle": "Quatre étapes suffisent pour un intérieur impeccable.",
+    "steps": [
+      { "title": "Demandez un devis", "description": "Décrivez votre besoin via le formulaire ou par téléphone." },
+      { "title": "Recevez votre tarif", "description": "Nous vous envoyons un devis clair et sans engagement sous 24h." },
+      { "title": "Réservez une date", "description": "Choisissez le créneau qui vous convient le mieux." },
+      { "title": "On s'occupe de tout", "description": "Notre équipe intervient et vous livre un résultat irréprochable." }
+    ]
+  },
+  "about": {
+    "eyebrow": "À propos",
+    "title": "Une équipe locale en qui vous pouvez avoir confiance",
+    "subtitle": "Basés en Haute-Savoie, nous connaissons parfaitement les exigences des chalets et villas de la région.",
+    "imageAlt": "Membre de l'équipe Fenix Nettoyage nettoyant les surfaces vitrées d'un intérieur haut de gamme en Haute-Savoie",
+    "points": [
+      { "title": "Entreprise assurée", "description": "Vous êtes couverts pour chaque intervention, en toute tranquillité." },
+      { "title": "Produits écologiques", "description": "Des produits respectueux de votre santé et de l'environnement alpin." },
+      { "title": "Équipe expérimentée", "description": "Des professionnels formés, ponctuels et attentifs aux détails." },
+      { "title": "Expertise chalets & villas", "description": "Une parfaite connaissance du marché des résidences haut de gamme de Megève et d'Annecy." }
+    ]
+  },
+  "reviews": {
+    "eyebrow": "Avis clients",
+    "title": "Ce que disent nos clients",
+    "subtitle": "La satisfaction de nos clients en Haute-Savoie fait notre réputation.",
+    "ratingLabel": "Note moyenne",
+    "reviewsLabel": "avis Google",
+    "error": "Impossible de charger les avis pour le moment.",
+    "loading": "Chargement des avis..."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Demandez votre devis gratuit",
+    "subtitle": "Remplissez le formulaire et nous vous répondons sous 24h.",
+    "fields": {
+      "name": "Nom complet",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "service": "Type de prestation",
+      "servicePlaceholder": "Sélectionnez un service",
+      "area": "Adresse / secteur",
+      "message": "Votre message",
+      "date": "Date souhaitée",
+      "dateOptional": "(optionnel)"
+    },
+    "submit": "Envoyer ma demande",
+    "submitting": "Envoi en cours...",
+    "success": "Merci ! Votre demande a bien été envoyée. Nous vous recontactons sous 24h.",
+    "error": "Une erreur est survenue. Merci de réessayer ou de nous appeler directement.",
+    "required": "Ce champ est obligatoire.",
+    "invalidEmail": "Veuillez saisir une adresse e-mail valide.",
+    "infoTitle": "Contactez-nous directement",
+    "phone": "+33 4 50 00 00 00",
+    "email": "contact@fenix-nettoyage.fr",
+    "hours": "Horaires",
+    "hoursValue": "Lun – Sam : 8h00 – 19h00",
+    "areaValue": "Annecy, Megève et toute la Haute-Savoie"
+  },
+  "footer": {
+    "tagline": "Nettoyage professionnel de chalets, villas, bureaux et locaux en Haute-Savoie.",
+    "servicesTitle": "Services",
+    "contactTitle": "Contact",
+    "hoursTitle": "Horaires",
+    "hoursValue": "Lun – Sam : 8h00 – 19h00",
+    "areaTitle": "Zone d'intervention",
+    "areaValue": "Annecy · Megève · Haute-Savoie",
+    "followTitle": "Suivez-nous",
+    "rights": "Tous droits réservés.",
+    "phone": "+33 4 50 00 00 00",
+    "email": "contact@fenix-nettoyage.fr"
+  }
+}

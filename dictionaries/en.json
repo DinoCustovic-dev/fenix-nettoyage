@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "Fenix Nettoyage — Cleaning Company in Annecy, Megève & Haute-Savoie",
+    "description": "Fenix Nettoyage is your professional cleaning company in Haute-Savoie, France. Chalet cleaning in Megève, villa cleaning around Annecy, offices, post-construction and commercial premises. Free quote.",
+    "ogTitle": "Fenix Nettoyage — Professional Cleaning in Haute-Savoie",
+    "ogDescription": "Cleaning of chalets, villas, offices and premises in Annecy, Megève and across Haute-Savoie. Experienced team, eco-friendly products. Request your free quote.",
+    "keywords": "cleaning Annecy, cleaning Megève, cleaning company Haute-Savoie, chalet cleaning Megève, villa cleaning Annecy, office cleaning, post-construction cleaning, industrial cleaning"
+  },
+  "nav": {
+    "services": "Services",
+    "howItWorks": "How it works",
+    "about": "About",
+    "reviews": "Reviews",
+    "contact": "Contact",
+    "quote": "Get a quote",
+    "languageLabel": "Choose language"
+  },
+  "hero": {
+    "eyebrow": "Annecy · Megève · Haute-Savoie",
+    "title": "Professional, spotless cleaning across",
+    "highlight": "Haute-Savoie",
+    "subtitle": "From Annecy to Megève, Fenix Nettoyage takes care of your chalets, villas, offices and commercial premises. An expert team, eco-friendly products and flawless results.",
+    "ctaPrimary": "Get a quote",
+    "ctaSecondary": "Explore our services",
+    "imageAlt": "Bright living room of a freshly cleaned alpine chalet overlooking the snowy mountains of Haute-Savoie",
+    "trust": ["Fully insured", "Eco-friendly products", "Free quote within 24h"]
+  },
+  "services": {
+    "eyebrow": "Our services",
+    "title": "Tailored cleaning services",
+    "subtitle": "For homeowners and businesses alike, we work across Haute-Savoie with the same high standards.",
+    "closing": "We handle all types of cleaning work, for individuals and professionals.",
+    "items": [
+      { "id": "post-construction", "title": "Post-construction cleaning", "description": "Complete cleanup after building or renovation work, ready to move in." },
+      { "id": "offices", "title": "Office cleaning", "description": "Regular or one-time maintenance of your workspaces for a healthy, welcoming environment." },
+      { "id": "commercial", "title": "Commercial & professional premises", "description": "Cleaning tailored to shops, stores and spaces open to the public." },
+      { "id": "chalets", "title": "Chalet cleaning in Megève", "description": "Premium care for chalets in Megève and surroundings, between rentals or year-round." },
+      { "id": "villas", "title": "Villa cleaning around Annecy", "description": "Meticulous service for villas and residences around Lake Annecy." },
+      { "id": "homes", "title": "Houses & apartments", "description": "Full cleaning of your home, as a one-off or on a recurring basis." },
+      { "id": "industrial", "title": "Industrial cleaning", "description": "Cleaning of industrial sites, warehouses and workshops in line with standards." },
+      { "id": "common-areas", "title": "Building common areas", "description": "Upkeep of lobbies, stairwells and shared areas for co-owners and property managers." },
+      { "id": "move-out", "title": "Move-out & inspection cleaning", "description": "Deep cleaning to recover your deposit or welcome new occupants." },
+      { "id": "recurring", "title": "One-time or recurring cleaning", "description": "A single visit or a maintenance contract tailored to your schedule." },
+      { "id": "windows", "title": "Windows & glass surfaces", "description": "Washing of windows, bay windows and glass roofs for perfect clarity." },
+      { "id": "surfaces", "title": "Floors, walls & surfaces", "description": "Cleaning and maintenance of all types of floors, walls and coverings." },
+      { "id": "disinfection", "title": "Disinfection & general upkeep", "description": "Disinfection of spaces and general maintenance for a safe, healthy setting." }
+    ]
+  },
+  "howItWorks": {
+    "eyebrow": "How it works",
+    "title": "Simple, fast and transparent",
+    "subtitle": "Four steps are all it takes for a spotless space.",
+    "steps": [
+      { "title": "Request a quote", "description": "Describe your needs via the form or by phone." },
+      { "title": "Get your pricing", "description": "We send you a clear, no-obligation quote within 24 hours." },
+      { "title": "Book a date", "description": "Choose the time slot that works best for you." },
+      { "title": "We clean", "description": "Our team steps in and delivers a flawless result." }
+    ]
+  },
+  "about": {
+    "eyebrow": "About us",
+    "title": "A local team you can trust",
+    "subtitle": "Based in Haute-Savoie, we know exactly what the region's chalets and villas require.",
+    "imageAlt": "Fenix Nettoyage team member cleaning the glass surfaces of a high-end interior in Haute-Savoie",
+    "points": [
+      { "title": "Fully insured", "description": "You are covered for every visit, for complete peace of mind." },
+      { "title": "Eco-friendly products", "description": "Products that respect your health and the alpine environment." },
+      { "title": "Experienced team", "description": "Trained professionals who are punctual and detail-oriented." },
+      { "title": "Chalet & villa expertise", "description": "Deep knowledge of the high-end residence market in Megève and Annecy." }
+    ]
+  },
+  "reviews": {
+    "eyebrow": "Client reviews",
+    "title": "What our clients say",
+    "subtitle": "The satisfaction of our clients in Haute-Savoie builds our reputation.",
+    "ratingLabel": "Average rating",
+    "reviewsLabel": "Google reviews",
+    "error": "Unable to load reviews right now.",
+    "loading": "Loading reviews..."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Request your free quote",
+    "subtitle": "Fill in the form and we'll get back to you within 24 hours.",
+    "fields": {
+      "name": "Full name",
+      "phone": "Phone",
+      "email": "Email",
+      "service": "Service type",
+      "servicePlaceholder": "Select a service",
+      "area": "Address / area",
+      "message": "Your message",
+      "date": "Preferred date",
+      "dateOptional": "(optional)"
+    },
+    "submit": "Send my request",
+    "submitting": "Sending...",
+    "success": "Thank you! Your request has been sent. We'll get back to you within 24 hours.",
+    "error": "Something went wrong. Please try again or call us directly.",
+    "required": "This field is required.",
+    "invalidEmail": "Please enter a valid email address.",
+    "infoTitle": "Contact us directly",
+    "phone": "+33 4 50 00 00 00",
+    "email": "contact@fenix-nettoyage.fr",
+    "hours": "Hours",
+    "hoursValue": "Mon – Sat: 8:00 AM – 7:00 PM",
+    "areaValue": "Annecy, Megève and all of Haute-Savoie"
+  },
+  "footer": {
+    "tagline": "Professional cleaning of chalets, villas, offices and premises in Haute-Savoie.",
+    "servicesTitle": "Services",
+    "contactTitle": "Contact",
+    "hoursTitle": "Hours",
+    "hoursValue": "Mon – Sat: 8:00 AM – 7:00 PM",
+    "areaTitle": "Service area",
+    "areaValue": "Annecy · Megève · Haute-Savoie",
+    "followTitle": "Follow us",
+    "rights": "All rights reserved.",
+    "phone": "+33 4 50 00 00 00",
+    "email": "contact@fenix-nettoyage.fr"
+  }
+}
