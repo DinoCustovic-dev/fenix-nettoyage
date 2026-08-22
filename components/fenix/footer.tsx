@@ -32,7 +32,7 @@ export function Footer({
 }) {
   const { footer } = dict
   const year = new Date().getFullYear()
-  const topServices = dict.services.items.slice(0, 6)
+  const allServices = dict.services.items
 
   return (
     <footer className="bg-brand-navy text-white">
@@ -58,7 +58,7 @@ export function Footer({
               {footer.servicesTitle}
             </h2>
             <ul className="mt-4 space-y-2 text-sm text-white/75">
-              {topServices.map((service) => (
+              {allServices.map((service) => (
                 <li key={service.id}>
                   <a href="#services" className="transition-colors hover:text-white">
                     {service.title}

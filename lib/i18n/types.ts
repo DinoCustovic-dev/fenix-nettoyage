@@ -1,17 +1,11 @@
 export type ServiceId =
-  | 'post-construction'
-  | 'offices'
-  | 'commercial'
-  | 'chalets'
-  | 'villas'
-  | 'homes'
-  | 'industrial'
   | 'common-areas'
-  | 'move-out'
-  | 'recurring'
   | 'windows'
-  | 'surfaces'
-  | 'disinfection'
+  | 'industrial'
+  | 'villas-chalets'
+  | 'offices'
+  | 'tourist-residences'
+  | 'post-construction'
 
 export interface Dictionary {
   meta: {
@@ -45,7 +39,16 @@ export interface Dictionary {
     title: string
     subtitle: string
     closing: string
-    items: { id: ServiceId; title: string; description: string }[]
+    moreLabel: string
+    learnMoreLabel: string
+    closeLabel: string
+    items: {
+      id: ServiceId
+      title: string
+      teaser: string
+      approach: string
+      bullets: { label: string; text: string }[]
+    }[]
   }
   howItWorks: {
     eyebrow: string

@@ -30,20 +30,91 @@
     "title": "Des prestations de nettoyage sur mesure",
     "subtitle": "Pour les particuliers comme pour les professionnels, nous intervenons dans toute la Haute-Savoie avec le même niveau d'exigence.",
     "closing": "Nous réalisons tous types de travaux de nettoyage, pour les particuliers et les professionnels.",
+    "moreLabel": "Voir plus de catégories",
+    "learnMoreLabel": "En savoir plus",
+    "closeLabel": "Fermer",
     "items": [
-      { "id": "post-construction", "title": "Nettoyage de fin de chantier", "description": "Remise en état complète après travaux de construction ou de rénovation, prête à emménager." },
-      { "id": "offices", "title": "Nettoyage de bureaux", "description": "Entretien régulier ou ponctuel de vos espaces de travail pour un environnement sain et accueillant." },
-      { "id": "commercial", "title": "Locaux professionnels et commerciaux", "description": "Nettoyage adapté aux commerces, boutiques et espaces recevant du public." },
-      { "id": "chalets", "title": "Nettoyage de chalets à Megève", "description": "Entretien haut de gamme de chalets à Megève et dans les environs, entre deux locations ou à l'année." },
-      { "id": "villas", "title": "Nettoyage de villas autour d'Annecy", "description": "Prestations soignées pour les villas et résidences autour du lac d'Annecy." },
-      { "id": "homes", "title": "Maisons et appartements", "description": "Ménage complet de votre logement, en une fois ou de manière récurrente." },
-      { "id": "industrial", "title": "Nettoyage industriel", "description": "Nettoyage de sites industriels, entrepôts et ateliers dans le respect des normes." },
-      { "id": "common-areas", "title": "Parties communes d'immeubles", "description": "Entretien des halls, escaliers et parties communes pour les copropriétés et syndics." },
-      { "id": "move-out", "title": "Après déménagement ou état des lieux", "description": "Nettoyage approfondi pour récupérer votre caution ou accueillir de nouveaux occupants." },
-      { "id": "recurring", "title": "Nettoyage ponctuel ou régulier", "description": "Une intervention unique ou un contrat d'entretien adapté à votre rythme." },
-      { "id": "windows", "title": "Vitres et surfaces vitrées", "description": "Lavage des vitres, baies et verrières pour une transparence parfaite." },
-      { "id": "surfaces", "title": "Sols, murs et surfaces diverses", "description": "Nettoyage et entretien de tous types de sols, murs et revêtements." },
-      { "id": "disinfection", "title": "Désinfection et entretien général", "description": "Désinfection des espaces et entretien général pour un cadre sain et sécurisé." }
+      {
+        "id": "common-areas",
+        "title": "Nettoyage de Copropriétés & Immeubles",
+        "teaser": "Parties communes, conteneurs et abords entretenus avec rigueur pour valoriser votre copropriété.",
+        "approach": "Une rigueur constante et un suivi personnalisé pour valoriser votre patrimoine immobilier et offrir un cadre de vie irréprochable aux résidents.",
+        "bullets": [
+          { "label": "Entretien des parties communes", "text": "Aspiration et lavage des halls d'entrée, escaliers, couloirs, ascenseurs et mains courantes." },
+          { "label": "Gestion des conteneurs", "text": "Sortie, rentrée, désinfection et lavage régulier des bacs à ordures ménagères et locaux poubelles." },
+          { "label": "Soin des surfaces vitrées", "text": "Nettoyage des baies du hall, fenêtres de cage d'escalier, portes vitrées et miroirs." },
+          { "label": "Espaces annexes & Extérieurs", "text": "Balayage des locaux à vélos/poussettes, parkings souterrains, passages piétons et abords de l'immeuble." },
+          { "label": "Contrôle & Traçabilité", "text": "Fiche de passage systématique et remontée d'information au syndic ou au conseil syndical en cas d'anomalie ou de dégradation." }
+        ]
+      },
+      {
+        "id": "windows",
+        "title": "Lavage de Vitres & Surfaces Vitrées",
+        "teaser": "Un lavage sans trace de vos vitrages, même les plus difficiles d'accès.",
+        "approach": "Une transparence parfaite et une clarté optimale grâce à des techniques de pointe adaptées aux architectures les plus exigeantes.",
+        "bullets": [
+          { "label": "Vitrages de Prestige & Panoramiques", "text": "Nettoyage sans trace des grandes baies vitrées, garde-corps en verre, vérandas et verrières de chalets ou résidences haut de gamme." },
+          { "label": "Techniques Adaptées & Accès Difficiles", "text": "Intervention en hauteur sur vitrerie inaccessible (perche à eau pure, nacelle) en toute sécurité." },
+          { "label": "Soin Complet des Encadrements", "text": "Lavage minutieux des encadrements (bois, aluminium, PVC), rails de coulissants, rebords et joints d'étanchéité." },
+          { "label": "Dépollution & Fin de Chantier", "text": "Dégraissage, élimination du voile de ciment, des traces de peinture, de résine ou de colle après travaux." }
+        ]
+      },
+      {
+        "id": "industrial",
+        "title": "Nettoyage Industriel",
+        "teaser": "Des protocoles stricts pour des sites propres, sûrs et conformes aux normes.",
+        "approach": "Des protocoles d'hygiène stricts et des équipements de pointe pour maintenir la conformité, la sécurité et la productivité de vos sites.",
+        "bullets": [
+          { "label": "Sols & Grands volumes", "text": "Balayage, autolavage et traitement mécanique des grandes surfaces (béton ciré, résine, dalles industrielles)." },
+          { "label": "Zones techniques & Stockage", "text": "Entretien des entrepôts, quais d'expédition, locaux techniques et gestion des déchets industriels." },
+          { "label": "Respect des normes", "text": "Application rigoureuse des règles de sécurité (EPI, balisage) et des exigences d'hygiène sectorielles (agroalimentaire, chimie, logistique)." }
+        ]
+      },
+      {
+        "id": "villas-chalets",
+        "title": "Nettoyage de Villas & Chalets",
+        "teaser": "Un standard hôtelier pour un turnover impeccable entre chaque séjour.",
+        "approach": "Un standard hôtelier rigoureux pour assurer la satisfaction absolue de vos voyageurs et protéger la valeur de votre bien.",
+        "bullets": [
+          { "label": "Préparation & Turnover rapide", "text": "Nettoyage en profondeur entre deux réservations, aération complète et remise en ordre méticuleuse du mobilier." },
+          { "label": "Gestion du linge & Consommables", "text": "Prise en charge du blanchissage, dressage soigné des lits et réapprovisionnement des produits d'accueil." },
+          { "label": "Soin des matériaux nobles", "text": "Entretien adapté aux surfaces exigeantes (bois brut, pierre naturelle, marbre, cuir et vitrages panoramiques)." },
+          { "label": "Vérification & Signalement", "text": "Inspection visuelle du logement à chaque passage avec remontée immédiate des éventuels dégâts ou objets oubliés." }
+        ]
+      },
+      {
+        "id": "offices",
+        "title": "Locaux Professionnels & Bureaux",
+        "teaser": "Un cadre de travail sain, entretenu sans jamais perturber votre activité.",
+        "approach": "Un environnement de travail sain et valorisant pour vos collaborateurs et vos clients.",
+        "bullets": [
+          { "label": "Flexibilité horaire", "text": "Interventions tôt le matin ou en soirée pour ne jamais perturber votre activité." },
+          { "label": "Désinfection des postes de travail", "text": "Nettoyage des claviers, écrans, poignées et points de contact fréquents." },
+          { "label": "Entretien régulier", "text": "Vides-poubelles, aspiration/lavage des sols, approvisionnement des sanitaires et zones de pause." }
+        ]
+      },
+      {
+        "id": "tourist-residences",
+        "title": "Résidences Touristiques",
+        "teaser": "Une organisation réactive taillée pour les fortes rotations saisonnières.",
+        "approach": "Une organisation industrielle et réactive adaptée aux fortes rotations saisonnières.",
+        "bullets": [
+          { "label": "Gestion des flux", "text": "Interventions rapides entre le départ et l'arrivée des clients durant les jours de grands départs." },
+          { "label": "Entretien des parties communes", "text": "Hall d'accueil, ascenseurs, locaux à poubelles et espaces bien-être (spa, sauna)." },
+          { "label": "Standardisation de la qualité", "text": "Utilisation de checklists strictes pour garantir le même niveau de propreté sur tous les appartements." }
+        ]
+      },
+      {
+        "id": "post-construction",
+        "title": "Nettoyage Fin de Chantier",
+        "teaser": "Une remise en état complète pour un chantier livré impeccable.",
+        "approach": "Une remise en état méticuleuse pour livrer un bâtiment impeccable après travaux.",
+        "bullets": [
+          { "label": "Dépoussiérage intensif", "text": "Élimination de la poussière de plâtre, de ciment et de ponçage sur toutes les surfaces." },
+          { "label": "Décapage des sols et vitres", "text": "Retrait des traces de peinture, colle, joints, étiquettes et voiles de ciment." },
+          { "label": "Désinfection globale", "text": "Nettoyage à fond des sanitaires, placards et cuisines avant l'emménagement des occupants." }
+        ]
+      }
     ]
   },
   "howItWorks": {
@@ -60,7 +131,7 @@
   "about": {
     "eyebrow": "À propos",
     "title": "Une équipe locale en qui vous pouvez avoir confiance",
-    "subtitle": "Basés en Haute-Savoie, nous connaissons parfaitement les exigences des chalets et villas de la région.",
+    "subtitle": "Bienvenue chez Fenix Nettoyage, votre partenaire de confiance pour l'entretien et la remise en état de vos espaces en Haute-Savoie. Que vous soyez propriétaire d'un chalet d'exception, gestionnaire d'une résidence touristique, responsable de locaux professionnels ou entrepreneur du bâtiment, nous déployons un savoir-faire sur mesure pour sublimer vos lieux et garantir une propreté irréprochable.",
     "imageAlt": "Membre de l'équipe Fenix Nettoyage nettoyant les surfaces vitrées d'un intérieur haut de gamme en Haute-Savoie",
     "points": [
       { "title": "Entreprise assurée", "description": "Vous êtes couverts pour chaque intervention, en toute tranquillité." },
