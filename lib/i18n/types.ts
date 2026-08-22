@@ -40,6 +40,7 @@ export interface Dictionary {
     subtitle: string
     closing: string
     moreLabel: string
+    fewerLabel: string
     learnMoreLabel: string
     closeLabel: string
     items: {

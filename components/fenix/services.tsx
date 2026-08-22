@@ -13,6 +13,7 @@ import {
   type LucideIcon,
 } from 'lucide-react'
 import type { Dictionary, ServiceId } from '@/lib/i18n/types'
+import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
 import {
   Dialog,
@@ -32,12 +33,16 @@ const icons: Record<ServiceId, LucideIcon> = {
   'post-construction': HardHat,
 }
 
-const VISIBLE_COUNT = 4
+// Default visible cards before "more" is clicked — 4 on desktop (2x2), 3 on mobile
+// (the 4th card is CSS-hidden below the `sm` breakpoint instead of not rendered,
+// so no layout shift/refetch happens when the viewport crosses the breakpoint).
+const DESKTOP_VISIBLE_COUNT = 4
+const MOBILE_VISIBLE_COUNT = 3
 
 export function Services({ services }: { services: Dictionary['services'] }) {
   const [expanded, setExpanded] = useState(false)
-  const visibleItems = expanded ? services.items : services.items.slice(0, VISIBLE_COUNT)
-  const hasMore = !expanded && services.items.length > VISIBLE_COUNT
+  const visibleItems = expanded ? services.items : services.items.slice(0, DESKTOP_VISIBLE_COUNT)
+  const hasMore = services.items.length > DESKTOP_VISIBLE_COUNT
 
   return (
     <section id="services" className="scroll-mt-24 py-20 lg:py-28">
@@ -55,12 +60,16 @@ export function Services({ services }: { services: Dictionary['services'] }) {
         </div>
 
         <ul className="mx-auto mt-14 grid max-w-3xl gap-5 sm:grid-cols-2">
-          {visibleItems.map((service) => {
+          {visibleItems.map((service, index) => {
             const Icon = icons[service.id]
+            const hiddenOnMobile = !expanded && index >= MOBILE_VISIBLE_COUNT
             return (
               <li
                 key={service.id}
-                className="group flex flex-col rounded-2xl border border-border bg-card p-6 transition-all hover:-translate-y-1 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/10"
+                className={cn(
+                  'group flex-col rounded-2xl border border-border bg-card p-6 transition-all hover:-translate-y-1 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/10',
+                  hiddenOnMobile ? 'hidden sm:flex' : 'flex',
+                )}
               >
                 <span className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-secondary text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
                   <Icon className="h-6 w-6" aria-hidden="true" />
@@ -113,10 +122,14 @@ export function Services({ services }: { services: Dictionary['services'] }) {
             <Button
               variant="outline"
               className="rounded-full px-5"
-              onClick={() => setExpanded(true)}
+              aria-expanded={expanded}
+              onClick={() => setExpanded((value) => !value)}
             >
-              {services.moreLabel}
-              <ChevronDown className="h-4 w-4" aria-hidden="true" />
+              {expanded ? services.fewerLabel : services.moreLabel}
+              <ChevronDown
+                className={cn('h-4 w-4 transition-transform', expanded && 'rotate-180')}
+                aria-hidden="true"
+              />
             </Button>
           </div>
         )}
