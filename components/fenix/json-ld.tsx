@@ -55,7 +55,7 @@ export function LocalBusinessJsonLd({
         itemOffered: {
           '@type': 'Service',
           name: service.title,
-          description: service.description,
+          description: service.approach,
           serviceType: service.title,
           areaServed: siteConfig.areaServed,
           provider: { '@id': `${siteConfig.url}/#business` },

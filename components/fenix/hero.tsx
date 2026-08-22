@@ -6,7 +6,7 @@ import type { Dictionary } from '@/lib/i18n/types'
 export function Hero({ hero }: { hero: Dictionary['hero'] }) {
   return (
     <section className="relative overflow-hidden">
-      <div className="pointer-events-none absolute inset-x-0 top-0 h-[520px] bg-gradient-to-b from-secondary to-background" />
+      <div className="pointer-events-none absolute inset-x-0 top-0 h-130 bg-linear-to-b from-secondary to-background" />
       <div className="relative mx-auto grid max-w-6xl items-center gap-10 px-4 pb-16 pt-10 sm:px-6 lg:grid-cols-2 lg:gap-12 lg:pb-24 lg:pt-16">
         <div>
           <p className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-4 py-1.5 text-sm font-medium text-brand-navy">
@@ -49,7 +49,7 @@ export function Hero({ hero }: { hero: Dictionary['hero'] }) {
         </div>
 
         <div className="relative">
-          <div className="absolute -inset-4 -z-10 rounded-[2rem] brand-gradient opacity-15 blur-2xl" aria-hidden="true" />
+          <div className="absolute -inset-4 -z-10 rounded-4xl brand-gradient opacity-15 blur-2xl" aria-hidden="true" />
           <div className="overflow-hidden rounded-3xl border border-border shadow-xl shadow-primary/10">
             <Image
               src="/hero-chalet.png"

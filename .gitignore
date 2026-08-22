@@ -25,3 +25,9 @@ node_modules
 # Next.js auto-generated AI agent docs
 AGENTS.md
 CLAUDE.md
+
+# TypeScript build cache
+tsconfig.tsbuildinfo
+
+# Claude Code local session settings
+.claude/

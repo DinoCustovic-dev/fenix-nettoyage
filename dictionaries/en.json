@@ -30,20 +30,92 @@
     "title": "Tailored cleaning services",
     "subtitle": "For homeowners and businesses alike, we work across Haute-Savoie with the same high standards.",
     "closing": "We handle all types of cleaning work, for individuals and professionals.",
+    "moreLabel": "See more categories",
+    "fewerLabel": "See fewer categories",
+    "learnMoreLabel": "Learn more",
+    "closeLabel": "Close",
     "items": [
-      { "id": "post-construction", "title": "Post-construction cleaning", "description": "Complete cleanup after building or renovation work, ready to move in." },
-      { "id": "offices", "title": "Office cleaning", "description": "Regular or one-time maintenance of your workspaces for a healthy, welcoming environment." },
-      { "id": "commercial", "title": "Commercial & professional premises", "description": "Cleaning tailored to shops, stores and spaces open to the public." },
-      { "id": "chalets", "title": "Chalet cleaning in Megève", "description": "Premium care for chalets in Megève and surroundings, between rentals or year-round." },
-      { "id": "villas", "title": "Villa cleaning around Annecy", "description": "Meticulous service for villas and residences around Lake Annecy." },
-      { "id": "homes", "title": "Houses & apartments", "description": "Full cleaning of your home, as a one-off or on a recurring basis." },
-      { "id": "industrial", "title": "Industrial cleaning", "description": "Cleaning of industrial sites, warehouses and workshops in line with standards." },
-      { "id": "common-areas", "title": "Building common areas", "description": "Upkeep of lobbies, stairwells and shared areas for co-owners and property managers." },
-      { "id": "move-out", "title": "Move-out & inspection cleaning", "description": "Deep cleaning to recover your deposit or welcome new occupants." },
-      { "id": "recurring", "title": "One-time or recurring cleaning", "description": "A single visit or a maintenance contract tailored to your schedule." },
-      { "id": "windows", "title": "Windows & glass surfaces", "description": "Washing of windows, bay windows and glass roofs for perfect clarity." },
-      { "id": "surfaces", "title": "Floors, walls & surfaces", "description": "Cleaning and maintenance of all types of floors, walls and coverings." },
-      { "id": "disinfection", "title": "Disinfection & general upkeep", "description": "Disinfection of spaces and general maintenance for a safe, healthy setting." }
+      {
+        "id": "common-areas",
+        "title": "Condominium & Building Cleaning",
+        "teaser": "Common areas, bins and surroundings maintained with rigor to enhance your property's value.",
+        "approach": "Consistent rigor and personalized follow-up to enhance your property's value and offer residents a flawless living environment.",
+        "bullets": [
+          { "label": "Common area upkeep", "text": "Vacuuming and washing of entrance halls, stairways, corridors, elevators and handrails." },
+          { "label": "Bin management", "text": "Taking out, bringing back, disinfecting and regularly washing household waste bins and bin rooms." },
+          { "label": "Glass surface care", "text": "Cleaning of lobby windows, stairwell windows, glass doors and mirrors." },
+          { "label": "Annex & outdoor areas", "text": "Sweeping of bike/stroller rooms, underground car parks, walkways and building surroundings." },
+          { "label": "Monitoring & traceability", "text": "Systematic visit report with information passed on to the property manager or board in case of any anomaly or damage." }
+        ]
+      },
+      {
+        "id": "windows",
+        "title": "Window & Glass Surface Cleaning",
+        "teaser": "Streak-free cleaning of your glazing, even the hardest to reach.",
+        "approach": "Perfect transparency and optimal clarity thanks to advanced techniques suited to the most demanding architecture.",
+        "bullets": [
+          { "label": "Prestige & panoramic glazing", "text": "Streak-free cleaning of large bay windows, glass balustrades, verandas and glass roofs of high-end chalets or residences." },
+          { "label": "Adapted techniques for hard-to-reach areas", "text": "Safe high-access work on inaccessible glazing (pure water pole, aerial lift)." },
+          { "label": "Complete frame care", "text": "Thorough cleaning of frames (wood, aluminum, PVC), sliding tracks, sills and weather seals." },
+          { "label": "Post-construction decontamination", "text": "Degreasing and removal of cement haze, paint marks, resin or glue residue after building work." }
+        ]
+      },
+      {
+        "id": "industrial",
+        "title": "Industrial Cleaning",
+        "teaser": "Strict protocols for clean, safe sites that meet industry standards.",
+        "approach": "Strict hygiene protocols and advanced equipment to maintain the compliance, safety and productivity of your sites.",
+        "bullets": [
+          { "label": "Floors & large volumes", "text": "Sweeping, scrubbing and mechanical treatment of large surfaces (polished concrete, resin, industrial slabs)." },
+          { "label": "Technical & storage areas", "text": "Upkeep of warehouses, loading docks, technical rooms and industrial waste management." },
+          { "label": "Standards compliance", "text": "Rigorous application of safety rules (PPE, signage) and sector-specific hygiene requirements (food, chemical, logistics)." }
+        ]
+      },
+      {
+        "id": "villas-chalets",
+        "title": "Villa & Chalet Cleaning",
+        "teaser": "A hotel-grade standard for a flawless turnover between every stay.",
+        "approach": "A rigorous hotel-grade standard to ensure your guests' absolute satisfaction and protect the value of your property.",
+        "bullets": [
+          { "label": "Preparation & fast turnover", "text": "Deep cleaning between bookings, full airing out and meticulous tidying of furniture." },
+          { "label": "Linen & consumables management", "text": "Handling of laundry, careful bed-making and restocking of welcome amenities." },
+          { "label": "Care for premium materials", "text": "Maintenance suited to demanding surfaces (raw wood, natural stone, marble, leather and panoramic glazing)." },
+          { "label": "Inspection & reporting", "text": "Visual inspection of the property at every visit, with immediate reporting of any damage or forgotten items." }
+        ]
+      },
+      {
+        "id": "offices",
+        "title": "Professional Premises & Offices",
+        "teaser": "A healthy work environment, maintained without ever disrupting your business.",
+        "approach": "A healthy, valuing work environment for your staff and your clients.",
+        "bullets": [
+          { "label": "Flexible scheduling", "text": "Early-morning or evening visits so your business is never disrupted." },
+          { "label": "Workstation disinfection", "text": "Cleaning of keyboards, screens, handles and frequently touched points." },
+          { "label": "Regular upkeep", "text": "Bin emptying, floor vacuuming/washing, and restocking of restrooms and break areas." }
+        ]
+      },
+      {
+        "id": "tourist-residences",
+        "title": "Tourist Residences",
+        "teaser": "A responsive, large-scale organization built for heavy seasonal turnover.",
+        "approach": "An industrial-scale, responsive organization suited to heavy seasonal turnover.",
+        "bullets": [
+          { "label": "Flow management", "text": "Fast turnarounds between guest departures and arrivals during peak changeover days." },
+          { "label": "Common area upkeep", "text": "Reception hall, elevators, bin rooms and wellness areas (spa, sauna)." },
+          { "label": "Standardized quality", "text": "Strict checklists used to guarantee the same level of cleanliness across every apartment." }
+        ]
+      },
+      {
+        "id": "post-construction",
+        "title": "Post-Construction Cleaning",
+        "teaser": "A complete cleanup for a building handed over spotless.",
+        "approach": "A meticulous cleanup to hand over a spotless building after construction work.",
+        "bullets": [
+          { "label": "Intensive dust removal", "text": "Elimination of plaster, cement and sanding dust from every surface." },
+          { "label": "Floor & window stripping", "text": "Removal of paint marks, glue, sealant residue, labels and cement haze." },
+          { "label": "Full disinfection", "text": "Thorough cleaning of bathrooms, cupboards and kitchens before occupants move in." }
+        ]
+      }
     ]
   },
   "howItWorks": {
@@ -60,7 +132,7 @@
   "about": {
     "eyebrow": "About us",
     "title": "A local team you can trust",
-    "subtitle": "Based in Haute-Savoie, we know exactly what the region's chalets and villas require.",
+    "subtitle": "Welcome to Fenix Nettoyage, your trusted partner for the upkeep and refurbishment of your spaces across Haute-Savoie. Whether you own an exceptional chalet, manage a tourist residence, run professional premises or work as a building contractor, we bring tailored expertise to elevate your spaces and guarantee flawless cleanliness.",
     "imageAlt": "Fenix Nettoyage team member cleaning the glass surfaces of a high-end interior in Haute-Savoie",
     "points": [
       { "title": "Fully insured", "description": "You are covered for every visit, for complete peace of mind." },

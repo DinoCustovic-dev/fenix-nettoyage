@@ -9,7 +9,7 @@ export function About({ about }: { about: Dictionary['about'] }) {
     <section id="about" className="scroll-mt-24 py-20 lg:py-28">
       <div className="mx-auto grid max-w-6xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2">
         <div className="relative order-last lg:order-first">
-          <div className="absolute -inset-4 -z-10 rounded-[2rem] brand-gradient opacity-15 blur-2xl" aria-hidden="true" />
+          <div className="absolute -inset-4 -z-10 rounded-4xl brand-gradient opacity-15 blur-2xl" aria-hidden="true" />
           <div className="overflow-hidden rounded-3xl border border-border shadow-xl shadow-primary/10">
             <Image
               src="/about-team.png"

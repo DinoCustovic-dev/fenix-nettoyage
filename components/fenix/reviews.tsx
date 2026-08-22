@@ -73,7 +73,7 @@ export function Reviews({ reviews }: { reviews: Dictionary['reviews'] }) {
 
         {data && (
           <ul className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {data.reviews.map((review, i) => (
+            {data.reviews.slice(0, 3).map((review, i) => (
               <li key={i} className="flex flex-col rounded-2xl border border-border bg-card p-6">
                 <Stars rating={review.rating} />
                 <p className="mt-4 flex-1 text-sm leading-relaxed text-foreground/80">
