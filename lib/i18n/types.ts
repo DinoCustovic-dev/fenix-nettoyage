@@ -96,7 +96,6 @@ export interface Dictionary {
     invalidEmail: string
     infoTitle: string
     phone: string
-    email: string
     hours: string
     hoursValue: string
     areaValue: string
@@ -112,6 +111,5 @@ export interface Dictionary {
     followTitle: string
     rights: string
     phone: string
-    email: string
   }
 }

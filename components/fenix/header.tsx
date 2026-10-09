@@ -1,11 +1,11 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 import { Menu, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { LanguageSwitcher } from './language-switcher'
+import { Logo } from './logo'
 import type { Locale } from '@/lib/i18n/config'
 import type { Dictionary } from '@/lib/i18n/types'
 import { cn } from '@/lib/utils'
@@ -46,16 +46,8 @@ export function Header({
         <Link
           href={`/${locale}`}
           className="flex items-center gap-2 rounded-md focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ring"
-          aria-label="Fenix Nettoyage"
         >
-          <Image
-            src="/logo.png"
-            alt="Logo Fenix Nettoyage"
-            width={132}
-            height={44}
-            priority
-            className="h-10 w-auto object-contain lg:h-12"
-          />
+          <Logo priority />
         </Link>
 
         <nav aria-label={locale === 'fr' ? 'Navigation principale' : 'Main navigation'} className="hidden lg:block">

@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Fenix Nettoyage — Cleaning Company in Annecy, Megève & Haute-Savoie",
-    "description": "Fenix Nettoyage is your professional cleaning company in Haute-Savoie, France. Chalet cleaning in Megève, villa cleaning around Annecy, offices, post-construction and commercial premises. Free quote.",
-    "ogTitle": "Fenix Nettoyage — Professional Cleaning in Haute-Savoie",
+    "title": "Fenix74 — Cleaning Company in Annecy, Megève & Haute-Savoie",
+    "description": "Fenix74 is your professional cleaning company in Haute-Savoie, France. Chalet cleaning in Megève, villa cleaning around Annecy, offices, post-construction and commercial premises. Free quote.",
+    "ogTitle": "Fenix74 — Professional Cleaning in Haute-Savoie",
     "ogDescription": "Cleaning of chalets, villas, offices and premises in Annecy, Megève and across Haute-Savoie. Experienced team, eco-friendly products. Request your free quote.",
-    "keywords": "cleaning Annecy, cleaning Megève, cleaning company Haute-Savoie, chalet cleaning Megève, villa cleaning Annecy, office cleaning, post-construction cleaning, industrial cleaning"
+    "keywords": "Fenix74, cleaning Annecy, cleaning Megève, cleaning company Haute-Savoie, chalet cleaning Megève, villa cleaning Annecy, office cleaning, post-construction cleaning, industrial cleaning"
   },
   "nav": {
     "services": "Services",
@@ -19,7 +19,7 @@
     "eyebrow": "Annecy · Megève · Haute-Savoie",
     "title": "Professional, spotless cleaning across",
     "highlight": "Haute-Savoie",
-    "subtitle": "From Annecy to Megève, Fenix Nettoyage takes care of your chalets, villas, offices and commercial premises. An expert team, eco-friendly products and flawless results.",
+    "subtitle": "From Annecy to Megève, Fenix74 takes care of your chalets, villas, offices and commercial premises. An expert team, eco-friendly products and flawless results.",
     "ctaPrimary": "Get a quote",
     "ctaSecondary": "Explore our services",
     "imageAlt": "Bright living room of a freshly cleaned alpine chalet overlooking the snowy mountains of Haute-Savoie",
@@ -67,7 +67,7 @@
         "approach": "Strict hygiene protocols and advanced equipment to maintain the compliance, safety and productivity of your sites.",
         "bullets": [
           { "label": "Floors & large volumes", "text": "Sweeping, scrubbing and mechanical treatment of large surfaces (polished concrete, resin, industrial slabs)." },
-          { "label": "Technical & storage areas", "text": "Upkeep of warehouses, loading docks, technical rooms and industrial waste management." },
+          { "label": "Technical & storage areas", "text": "Upkeep of warehouses, loading docks and technical rooms." },
           { "label": "Standards compliance", "text": "Rigorous application of safety rules (PPE, signage) and sector-specific hygiene requirements (food, chemical, logistics)." }
         ]
       },
@@ -132,8 +132,8 @@
   "about": {
     "eyebrow": "About us",
     "title": "A local team you can trust",
-    "subtitle": "Welcome to Fenix Nettoyage, your trusted partner for the upkeep and refurbishment of your spaces across Haute-Savoie. Whether you own an exceptional chalet, manage a tourist residence, run professional premises or work as a building contractor, we bring tailored expertise to elevate your spaces and guarantee flawless cleanliness.",
-    "imageAlt": "Fenix Nettoyage team member cleaning the glass surfaces of a high-end interior in Haute-Savoie",
+    "subtitle": "Welcome to Fenix74, your trusted partner for the upkeep and refurbishment of your spaces across Haute-Savoie. Whether you own an exceptional chalet, manage a tourist residence, run professional premises or work as a building contractor, we bring tailored expertise to elevate your spaces and guarantee flawless cleanliness.",
+    "imageAlt": "Fenix74 team member cleaning the glass surfaces of a high-end interior in Haute-Savoie",
     "points": [
       { "title": "Fully insured", "description": "You are covered for every visit, for complete peace of mind." },
       { "title": "Eco-friendly products", "description": "Products that respect your health and the alpine environment." },
@@ -173,7 +173,6 @@
     "invalidEmail": "Please enter a valid email address.",
     "infoTitle": "Contact us directly",
     "phone": "+33 4 50 00 00 00",
-    "email": "contact@fenix-nettoyage.fr",
     "hours": "Hours",
     "hoursValue": "Mon – Sat: 8:00 AM – 7:00 PM",
     "areaValue": "Annecy, Megève and all of Haute-Savoie"
@@ -188,7 +187,6 @@
     "areaValue": "Annecy · Megève · Haute-Savoie",
     "followTitle": "Follow us",
     "rights": "All rights reserved.",
-    "phone": "+33 4 50 00 00 00",
-    "email": "contact@fenix-nettoyage.fr"
+    "phone": "+33 4 50 00 00 00"
   }
 }

@@ -21,7 +21,7 @@ export function LocalBusinessJsonLd({
     telephone: siteConfig.phone,
     email: siteConfig.email,
     image: `${siteConfig.url}/hero-chalet.png`,
-    logo: `${siteConfig.url}/logo.png`,
+    logo: `${siteConfig.url}/brand/fenix-icon-512.png`,
     priceRange: '€€',
     address: {
       '@type': 'PostalAddress',

@@ -208,6 +208,12 @@ export function Contact({
                   )}
                 </div>
 
+                {/* Honeypot: invisible to people, bots fill it and get silently dropped. */}
+                <div aria-hidden="true" className="sr-only">
+                  <label htmlFor="website">Website</label>
+                  <input id="website" name="website" type="text" tabIndex={-1} autoComplete="off" />
+                </div>
+
                 {status === 'error' && (
                   <p role="alert" className="sm:col-span-2 rounded-xl bg-destructive/10 px-4 py-3 text-sm text-destructive">
                     {contact.error}
@@ -248,9 +254,9 @@ export function Contact({
                 </a>
               </li>
               <li>
-                <a href={`mailto:${contact.email}`} className="flex items-start gap-3 break-all">
+                <a href={`mailto:${siteConfig.email}`} className="flex items-start gap-3 break-all">
                   <Mail className="mt-0.5 h-5 w-5 shrink-0" aria-hidden="true" />
-                  <span className="font-medium">{contact.email}</span>
+                  <span className="font-medium">{siteConfig.email}</span>
                 </a>
               </li>
               <li className="flex items-start gap-3">

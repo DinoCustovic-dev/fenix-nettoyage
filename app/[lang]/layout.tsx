@@ -45,6 +45,10 @@ export async function generateMetadata({
     description: dict.meta.description,
     keywords: dict.meta.keywords,
     generator: 'v0.app',
+    icons: {
+      icon: '/brand/fenix-icon-32.png',
+      apple: '/apple-icon.png',
+    },
     alternates: {
       canonical: `/${locale}`,
       languages: {

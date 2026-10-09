@@ -1,9 +1,9 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import { Phone, Mail, Clock, MapPin } from 'lucide-react'
 import type { Dictionary } from '@/lib/i18n/types'
 import type { Locale } from '@/lib/i18n/config'
 import { siteConfig } from '@/lib/site'
+import { Logo } from './logo'
 
 function FacebookIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
@@ -39,16 +39,8 @@ export function Footer({
       <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-1">
-            <Link href={`/${locale}`} className="inline-flex" aria-label="Fenix Nettoyage">
-              <span className="rounded-xl bg-white/95 px-3 py-2">
-                <Image
-                  src="/logo.png"
-                  alt="Logo Fenix Nettoyage"
-                  width={130}
-                  height={44}
-                  className="h-9 w-auto object-contain"
-                />
-              </span>
+            <Link href={`/${locale}`} className="inline-flex">
+              <Logo tone="light" />
             </Link>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/70">{footer.tagline}</p>
           </div>
@@ -80,9 +72,9 @@ export function Footer({
                 </a>
               </li>
               <li>
-                <a href={`mailto:${footer.email}`} className="flex items-center gap-2 transition-colors hover:text-white">
+                <a href={`mailto:${siteConfig.email}`} className="flex items-center gap-2 transition-colors hover:text-white">
                   <Mail className="h-4 w-4 shrink-0 text-accent" aria-hidden="true" />
-                  {footer.email}
+                  {siteConfig.email}
                 </a>
               </li>
               <li className="flex items-start gap-2">

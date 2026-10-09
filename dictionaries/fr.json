@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Fenix Nettoyage — Entreprise de nettoyage à Annecy, Megève & Haute-Savoie",
-    "description": "Fenix Nettoyage, votre entreprise de nettoyage professionnel en Haute-Savoie. Nettoyage de chalets à Megève, villas autour d'Annecy, bureaux, fin de chantier et locaux commerciaux. Devis gratuit.",
-    "ogTitle": "Fenix Nettoyage — Nettoyage professionnel en Haute-Savoie",
+    "title": "Fenix74 — Entreprise de nettoyage à Annecy, Megève & Haute-Savoie",
+    "description": "Fenix74, votre entreprise de nettoyage professionnel en Haute-Savoie. Nettoyage de chalets à Megève, villas autour d'Annecy, bureaux, fin de chantier et locaux commerciaux. Devis gratuit.",
+    "ogTitle": "Fenix74 — Nettoyage professionnel en Haute-Savoie",
     "ogDescription": "Nettoyage de chalets, villas, bureaux et locaux à Annecy, Megève et dans toute la Haute-Savoie. Équipe expérimentée, produits écologiques. Demandez votre devis gratuit.",
-    "keywords": "nettoyage Annecy, nettoyage Megève, entreprise de nettoyage Haute-Savoie, nettoyage chalet Megève, nettoyage villa Annecy, nettoyage bureaux, nettoyage fin de chantier, nettoyage industriel"
+    "keywords": "Fenix74, nettoyage Annecy, nettoyage Megève, entreprise de nettoyage Haute-Savoie, nettoyage chalet Megève, nettoyage villa Annecy, nettoyage bureaux, nettoyage fin de chantier, nettoyage industriel"
   },
   "nav": {
     "services": "Services",
@@ -19,7 +19,7 @@
     "eyebrow": "Annecy · Megève · Haute-Savoie",
     "title": "Un nettoyage professionnel et impeccable en",
     "highlight": "Haute-Savoie",
-    "subtitle": "De Annecy à Megève, Fenix Nettoyage prend soin de vos chalets, villas, bureaux et locaux professionnels. Une équipe experte, des produits respectueux de l'environnement, un résultat irréprochable.",
+    "subtitle": "D'Annecy à Megève, Fenix74 prend soin de vos chalets, villas, bureaux et locaux professionnels. Une équipe experte, des produits respectueux de l'environnement, un résultat irréprochable.",
     "ctaPrimary": "Demander un devis",
     "ctaSecondary": "Découvrir nos services",
     "imageAlt": "Salon lumineux d'un chalet alpin fraîchement nettoyé avec vue sur les montagnes enneigées de Haute-Savoie",
@@ -67,7 +67,7 @@
         "approach": "Des protocoles d'hygiène stricts et des équipements de pointe pour maintenir la conformité, la sécurité et la productivité de vos sites.",
         "bullets": [
           { "label": "Sols & Grands volumes", "text": "Balayage, autolavage et traitement mécanique des grandes surfaces (béton ciré, résine, dalles industrielles)." },
-          { "label": "Zones techniques & Stockage", "text": "Entretien des entrepôts, quais d'expédition, locaux techniques et gestion des déchets industriels." },
+          { "label": "Zones techniques & Stockage", "text": "Entretien des entrepôts, quais d'expédition et locaux techniques." },
           { "label": "Respect des normes", "text": "Application rigoureuse des règles de sécurité (EPI, balisage) et des exigences d'hygiène sectorielles (agroalimentaire, chimie, logistique)." }
         ]
       },
@@ -132,8 +132,8 @@
   "about": {
     "eyebrow": "À propos",
     "title": "Une équipe locale en qui vous pouvez avoir confiance",
-    "subtitle": "Bienvenue chez Fenix Nettoyage, votre partenaire de confiance pour l'entretien et la remise en état de vos espaces en Haute-Savoie. Que vous soyez propriétaire d'un chalet d'exception, gestionnaire d'une résidence touristique, responsable de locaux professionnels ou entrepreneur du bâtiment, nous déployons un savoir-faire sur mesure pour sublimer vos lieux et garantir une propreté irréprochable.",
-    "imageAlt": "Membre de l'équipe Fenix Nettoyage nettoyant les surfaces vitrées d'un intérieur haut de gamme en Haute-Savoie",
+    "subtitle": "Bienvenue chez Fenix74, votre partenaire de confiance pour l'entretien et la remise en état de vos espaces en Haute-Savoie. Que vous soyez propriétaire d'un chalet d'exception, gestionnaire d'une résidence touristique, responsable de locaux professionnels ou entrepreneur du bâtiment, nous déployons un savoir-faire sur mesure pour sublimer vos lieux et garantir une propreté irréprochable.",
+    "imageAlt": "Membre de l'équipe Fenix74 nettoyant les surfaces vitrées d'un intérieur haut de gamme en Haute-Savoie",
     "points": [
       { "title": "Entreprise assurée", "description": "Vous êtes couverts pour chaque intervention, en toute tranquillité." },
       { "title": "Produits écologiques", "description": "Des produits respectueux de votre santé et de l'environnement alpin." },
@@ -173,7 +173,6 @@
     "invalidEmail": "Veuillez saisir une adresse e-mail valide.",
     "infoTitle": "Contactez-nous directement",
     "phone": "+33 4 50 00 00 00",
-    "email": "contact@fenix-nettoyage.fr",
     "hours": "Horaires",
     "hoursValue": "Lun – Sam : 8h00 – 19h00",
     "areaValue": "Annecy, Megève et toute la Haute-Savoie"
@@ -188,7 +187,6 @@
     "areaValue": "Annecy · Megève · Haute-Savoie",
     "followTitle": "Suivez-nous",
     "rights": "Tous droits réservés.",
-    "phone": "+33 4 50 00 00 00",
-    "email": "contact@fenix-nettoyage.fr"
+    "phone": "+33 4 50 00 00 00"
   }
 }
