@@ -12,7 +12,7 @@ export function About({ about }: { about: Dictionary['about'] }) {
           <div className="absolute -inset-4 -z-10 rounded-4xl brand-gradient opacity-15 blur-2xl" aria-hidden="true" />
           <div className="overflow-hidden rounded-3xl border border-border shadow-xl shadow-primary/10">
             <Image
-              src="/about-team.png"
+              src="/about-team.webp"
               alt={about.imageAlt}
               width={900}
               height={720}
